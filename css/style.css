@@ -56,13 +56,18 @@ main {
     margin: 100px auto;
     min-width: 1170px;
 }
+section {
+    margin-bottom: 35px;
+}
 .col {
     width: calc((100% - 20px) / 3);
-    position: relative;
     cursor: pointer;
 }
 .col img {
     width: 100%;
+}
+.img-box {
+    position: relative;
 }
 .black-heart {
     display: block;
