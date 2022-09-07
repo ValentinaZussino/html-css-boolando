@@ -146,15 +146,6 @@ footer > div {
 .foot-links a:hover, header nav ul li a:hover {
     text-decoration: underline;
 }
-.heart {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color: var(--red);
-    font-size: 25px;
-    z-index: 100;
-}
 .second {
     display: none;
 }
@@ -162,5 +153,8 @@ footer > div {
     display: none;
 }
 .img-box:hover .second {
-    display: block;
+    display: inline-block;
+}
+.img-box:hover .black-heart {
+    color: red;
 }
