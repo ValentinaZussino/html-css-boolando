@@ -1,0 +1,32 @@
+/* utilities */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/* general */
+.flex {
+    display: flex;
+}
+
+/* nav */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #ff6801;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
+}
+
+img {
+    width: 150px;
+}
