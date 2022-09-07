@@ -18,7 +18,7 @@ body {
     --white: white;
     --red: red;
     --green: green;
-    --underline: ;
+    --colorfoot: #e8e8e8;
 }
 .flex {
     display: flex;
@@ -120,7 +120,7 @@ footer > div {
 }
 .col-foot {
     height: 100%;
-    color: #e8e8e8;
+    color: var(--colorfoot);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,6 +145,15 @@ footer > div {
 /* hover */
 .foot-links a:hover, header nav ul li a:hover {
     text-decoration: underline;
+}
+.heart {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: var(--red);
+    font-size: 25px;
+    display: block;
 }
 .second {
     display: none;
