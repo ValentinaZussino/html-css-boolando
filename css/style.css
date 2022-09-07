@@ -142,6 +142,16 @@ footer > div {
     margin-right: 5px;
     font-size: 30px;
 }
+/* hover */
 .foot-links a:hover, header nav ul li a:hover {
     text-decoration: underline;
+}
+.second {
+    display: none;
+}
+.img-box:hover .first {
+    display: none;
+}
+.img-box:hover .second {
+    display: block;
 }
