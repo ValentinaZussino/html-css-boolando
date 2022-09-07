@@ -153,5 +153,5 @@ footer > div {
     display: none;
 }
 .img-box:hover .second {
-    display: block;
+    display: inline-block;
 }
