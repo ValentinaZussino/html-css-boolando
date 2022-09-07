@@ -7,6 +7,7 @@
 
 .debug {
     border: 1px solid red;
+    height: 300px;
 }
 
 /* general */
@@ -16,11 +17,12 @@ body {
 :root {
     --white: white;
 }
-
 .flex {
     display: flex;
 }
-
+.margin {
+    margin: 0 10px;
+}
 /* nav header */
 header {
     position: fixed;
@@ -32,6 +34,7 @@ header {
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 5px rgba(30, 30, 30, 0.5);
+    z-index: 100;
 }
 header li, header li a, header a i {
     color: var(--white);
@@ -44,4 +47,33 @@ header li a {
 }
 header img {
     width: 150px;
+}
+/* main */
+main {
+    width: 75%;
+    margin: 100px auto;
+    min-width: 1170px;
+}
+.col {
+    width: calc((100% - 20px) / 3);
+    position: relative;
+    cursor: pointer;
+}
+.col img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.black-heart {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color:var(--white);
+    height: 25px;
+    width: 25px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
 }
