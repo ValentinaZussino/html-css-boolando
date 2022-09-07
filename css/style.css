@@ -18,6 +18,7 @@ body {
     --white: white;
     --red: red;
     --green: green;
+    --underline: ;
 }
 .flex {
     display: flex;
@@ -96,4 +97,11 @@ section {
 .sostain {
     background-color: var(--green);
     padding: 3px 5px;
+}
+.price {
+    color: var(--red);
+    font-weight: bold;
+}
+.price-old {
+    text-decoration: line-through;
 }
