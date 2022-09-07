@@ -23,9 +23,6 @@ body {
 .flex {
     display: flex;
 }
-.margin {
-    margin: 0 10px;
-}
 /* nav header */
 header {
     position: fixed;
@@ -52,7 +49,7 @@ header img {
     width: 150px;
 }
 /* main */
-main {
+.wrap {
     width: 75%;
     margin: 100px auto;
     min-width: 1170px;
@@ -60,15 +57,18 @@ main {
 section {
     margin-bottom: 35px;
 }
-.col {
-    width: calc((100% - 20px) / 3);
-    cursor: pointer;
+.margin {
+    margin: 0 10px;
 }
-.col img {
-    width: 100%;
+.col {
+    flex-basis: calc((100% - 20px) / 3);
+    cursor: pointer;
 }
 .img-box {
     position: relative;
+}
+.col img {
+    width: 100%;
 }
 .black-heart {
     display: block;
@@ -104,4 +104,33 @@ section {
 }
 .price-old {
     text-decoration: line-through;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #1a1a1a;
+}
+footer > div {
+    justify-content: space-between;
+    height: 100%;
+}
+.col-foot {
+    width: 50%;
+    color: #e8e8e8;
+}
+.col-foot span {
+    font-weight: bold;
+    font-size: 17px;
+}
+.foot-links {
+    margin-top: 5px;
+}
+.foot-links a {
+    color: #e8e8e8;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.foot-right {
+    justify-content: flex-end;
 }
