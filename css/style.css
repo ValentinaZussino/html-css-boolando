@@ -155,6 +155,6 @@ footer > div {
 .img-box:hover .second {
     display: inline-block;
 }
-.img-box:hover .black-heart {
+.black-heart:hover {
     color: red;
 }
